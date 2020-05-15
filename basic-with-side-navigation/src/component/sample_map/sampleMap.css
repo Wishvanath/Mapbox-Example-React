@@ -1,0 +1,37 @@
+.sample_map{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.agri_crop_main_wrapper{
+    width: 100%;
+    display: flex;
+}
+
+.side_bar{
+    width: 25%;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    /* overflow-y: scroll; */
+    background-color:#ffffff; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding: 20px;
+    flex-direction: column;
+}
+
+.map_data_body{
+    width: 75%;
+    margin-left: 25%; /* Same as the width of the sidebar */
+    height: 100%;
+}
+
+
+
+
+.ag_cn_logo img{
+    width: 50%;
+}
